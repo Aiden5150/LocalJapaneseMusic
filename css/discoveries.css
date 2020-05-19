@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background:#000;
+}
+section{
+	position:relative;
+	width:100%;
+	padding:50px;
+}
+
+
+section h2{
+	color: #fff;
+	font-size: 3em;
+	margin-bottom:10px;
+	font-family: viner hand itc;
+}
+section p{
+	color: #fff;
+}
+a{
+	color:white;
+}
+.content {
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0.6));
+	background-color:black;
+	height: 1px;
+	position: relative;
+	top: 50px;
+	color: white;
+	opacity: .8;
+	
+}
+
+.wrapper{
+	width:1170px;
+	margin:auto;
+
+}
+header{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0.6)), url("../img/IMG_1504.jpg");
+	height:100vh;
+	/*-webkit-background-size:cover;*/
+	background-size:cover;
+	background-position: center center;
+	position:relative;
+	
+}
+
+.nav-area{
+	float:right;
+	list-style: none;
+	margin-top:20px;
+	text-transform: uppercase;
+
+}
+.nav-area li{
+	display:inline-block;
+}
+.nav-area li a{
+	color:#fff;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family: poppins;
+	font-size: 14px;
+}
+.nav-area li a:hover{
+	background:#fff;
+	color:#333;
+}
+
+
+
+
+
+/*Table design*/
+.content-table{
+		border-collapse: collapse;
+		margin: 25px 0;
+		font-size: 0.9em;
+		min-width: 400px;
+		border-radius: 5px 5px 0 0;
+		overflow: hidden;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+		 
+
+	}
+
+	.content-table thead tr{
+			background-color:#00CCFF;
+			color: #fff;
+			text-align: left;
+			font-weight: bold;
+	}
+		.content-table th,
+		.content-table td{
+			padding: 12px 15px;
+		}
+		.content-table tbody tr{
+				border-bottom: 1px solid #dddddd;
+		}
+		
+		.content-table tbody tr:last-of-type{
+			border-bottom:2px solid #00CCFF;
+		}
+		.content-table tbody tr.active-row{
+			font-weight: bold;
+			color: #00CCFF;
+		}
+
+
+		
